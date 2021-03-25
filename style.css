@@ -1,0 +1,175 @@
+body{
+    width: 960px;
+    height: 768px;
+    display: grid;
+    grid-template-areas:
+    'a a a a a'
+        'a a a a a'
+        'b c c d d'
+        'b c c d d'
+        'b c c d d'
+        'b c c d d'
+        'b e f g h'
+        'b e f g h'
+        'b e f g h'
+        'b e f g h'
+        'b e f g h'
+        'b i i i i'
+        'b i i i i'
+        'b i i i i';
+  background-color: #989a9c;
+}
+div{
+    border: black 1px solid;
+}
+#a { 
+    grid-area: a;
+ }
+#b { 
+    grid-area: b;
+ }
+#c { 
+    grid-area: c; 
+}
+#d { 
+    grid-area: d; 
+}
+#e { 
+    grid-area: e; 
+}
+#f { 
+    grid-area: f; 
+}
+#g { 
+    grid-area: g; 
+}
+#h {
+     grid-area: h;
+     }
+#i {
+     grid-area: i;
+     }
+@media screen and (max-width: 480px) {
+    body{
+        display: grid;
+        grid-template-areas:
+        'a a '
+        'a a '
+        'a a '
+        'b b '
+        'b b '
+        'b b '
+        'b b '
+        'b b '
+        'b b '
+        'c c'
+        'c c'
+        'c c'
+        'c c'
+        'c c'
+        'd d'
+        'd d'
+        'd d'
+        'd d'
+        'd d'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'e f'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'g h'
+        'i i'
+        'i i'
+        'i i';
+      background-color: #83c1ff;
+    }
+    div{
+        border: black 1px solid;
+    }
+    #a { 
+        grid-area: a;
+     }
+    #b { 
+        grid-area: b;
+     }
+    #c { 
+        grid-area: c; 
+    }
+    #d { 
+        grid-area: d; 
+    }
+    #e { 
+        grid-area: e; 
+    }
+    #f { 
+        grid-area: f; 
+    }
+    #g { 
+        grid-area: g; 
+    }
+    #h {
+         grid-area: h;
+         }
+    #i {
+         grid-area: i;
+         }
+    }
+
+    @media only screen and (max-width: 600px) and (min-width: 480px)  {
+        body{
+            display: grid;
+            grid-template-areas:
+            'a a a a'
+            'b c d e'
+            'b c d e'
+            'b f g h'
+            'b f g h'
+            'b i i i';
+          background-color: #6de97d;
+        }
+        div{
+            border: black 1px solid;
+        }
+        #a { 
+            grid-area: a;
+         }
+        #b { 
+            grid-area: b;
+         }
+        #c { 
+            grid-area: c; 
+        }
+        #d { 
+            grid-area: d; 
+        }
+        #e { 
+            grid-area: e; 
+        }
+        #f { 
+            grid-area: f; 
+        }
+        #g { 
+            grid-area: g; 
+        }
+        #h {
+             grid-area: h;
+             }
+        #i {
+             grid-area: i;
+             }
+        }
+    
